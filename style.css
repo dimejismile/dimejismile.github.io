@@ -37,9 +37,10 @@ em {
     background-color: rgb(14, 185, 14);
     padding: 10px;
     font-size: 1rem;
+    
 }
 .green-button a {
-
+    color: #fff;
 }
 
 body {
@@ -178,7 +179,10 @@ main .free-consult {
 }
 
 .what-we-offer .ads-offer {
-    background-color: #1d1c1b;
+    background-image: url(./images/ads.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
     height: 300px;
 }
 
@@ -186,18 +190,46 @@ main .free-consult {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #c0c0c0;
+    background-color: #e2e2e2;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .offer-list {
-    padding: 20px;
+    padding: 10px;
     font-size: 1.2rem;
     text-align: center;
 }
 
 .border {
     border-left: 1px solid #3b3b3b;
+}
+
+.testimonial {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.testimony-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.testimony-box {
+    width: 28%;
+    padding: 20px;
+    margin: 20px 10px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.testimony-box .client-name {
+    color: #102C4D;
+    font-weight: bold;
 }
 
 @media (max-width:700px) {
