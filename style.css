@@ -122,6 +122,10 @@ nav {
     color: #ffff;
 }
 
+.content-wrap .button-wrapper {
+    padding: 10pxs;
+}
+
 main .free-consult {
     text-align: center;
     padding: 10px;
