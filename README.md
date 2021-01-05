@@ -1,1 +1,1 @@
-# dimejismile.github.io
+# This project belongs to sterling flexors
