@@ -269,9 +269,8 @@ main .free-consult {
 .fitness-packages .packages {
     background-color: rgb(34, 32, 32);
     border-radius: 5px;
-    margin-top: 20px;
-    margin-left: 15px; 
-    width: 320px; 
+    margin-top: 20px; 
+    width: 350px; 
     padding: 10px;
 }
 
