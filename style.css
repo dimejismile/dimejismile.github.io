@@ -12,18 +12,27 @@ em {
 
 .cta-button {
     border: none;
-    border-radius: 10px;
+    border-radius: 5px;
     outline: none;
     padding: 20px;
     font-size: 1rem;
     background-color: #f8c71d;
 }
 
+.consultation-button {
+    margin: 0;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #f8c71d;
+}
 
 .cta-button-2 {
     padding: 20px;
     font-size: 1rem;
-    background-color: none;
+    background-color: transparent;
     border: 1px solid #ffffff;
     border-radius: 10px;
     color: #ffffff;
@@ -31,6 +40,10 @@ em {
 
 .cta-button a {
     color: #000;
+}
+
+.cta-button-2 a {
+    color: white;
 }
 
 .green-button {
@@ -123,7 +136,8 @@ nav {
 }
 
 .content-wrap .button-wrapper {
-    padding: 10pxs;
+    margin: 20px;
+    padding: 20px;
 }
 
 main .free-consult {
@@ -188,7 +202,7 @@ main .free-consult {
     background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
-    height: 300px;
+    height: 300px
 }
 
 .offer-list-container {
@@ -255,37 +269,104 @@ main .free-consult {
 .fitness-packages .packages {
     background-color: rgb(34, 32, 32);
     border-radius: 5px;
-    margin: 20px;
-    width: 300px;
-    padding: 20px;
+    margin-top: 20px;
+    margin-left: 15px; 
+    width: 270px; 
+    padding: 10px;
 }
 
 .package-title {
     display: flex;
-    padding: 5px;
+    padding: 10px;
 }
 
 .package-benefits {
 
 }
-.package-benefits .list {
+.package-benefits .benefits-list {
     display: flex;
     padding-left: 5px;
+    font-size: 0.8rem;
+    margin-top: 20px;
+}
+
+.benefits-list img {
+    padding-right: 10px;
+}
+
+.packages .cta-button {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.fitness-trainer {
+    margin-top: 100px;
+}
+
+.fitness-trainer h1 {
+    text-align: center;
+}
+
+.trainer-wrapper {
+
+}
+
+.trainer-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+.trainer-box .trainer-picture {
+
+}
+
+.trainer-box .trainer-picture img {
+    background-size: cover;
+}
+
+.trainer-box .trainer-info {
+    width: 400px;
+    margin: 40px;
+}
+
+.trainer-info .trainer-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #102C4D;
+}
+
+.trainer-info .trainer-bio {
+    font-size: 0.9em;
+    font-style: italic;
+    color: #3b3b3b;
+    margin-top: 20px;
+}
+
+.trainer-info .call-to-action {
+    margin-top: 2%;
+}
+
+.trainer-info .call-to-action button{
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+}
+
+.watch {
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1em;
+}
+.book {
+    background-color: #102C4D;
+    color: rgb(255, 255, 255);
+    font-size: 1em;
 }
 
 @media (max-width:700px) {
     .navbar {
         display: none;
-    }
-    .target-wrapper .left-sect {
-        margin: 10px
-    }
-    .target-wrapper .left-sect img {
-        width: 300px;
-    }
-    .target-wrapper .right-sect {
-        width: 50%;
-        margin: 10px;
     }
 
     .testimonial {
@@ -313,5 +394,125 @@ main .free-consult {
         color: #102C4D;
         font-weight: bold;
     }
+
+    .how-it-works .steps {
+        width: 50%;
+        padding: 20px;
+    }
     
+    .news-post {
+        background-color: #dbac00;
+        font-size: 0.7rem;
+        color: #ffffff;
+        text-align: center;
+        padding: 1%;
+    }
+
+    .logo img {
+        width: 100px;;
+    }
+
+    .how-it-works {
+        text-align: center;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    
+    .how-it-works-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .how-it-works .steps {
+        width: auto;
+        padding: 10px;
+    }
+
+    .target-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .target-list {
+        margin: 50px 0;
+    }
+    
+    .target-wrapper .left-sect {
+        margin: 10px;
+        padding: 10px;
+    }
+    .target-wrapper .left-sect img {
+        width: 400px;
+    }
+    .target-wrapper .right-sect {
+        width: auto;
+        margin: 10px 30px;
+    }
+
+    .target-bullet {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+
+    .what-we-offer {
+        margin-top: 20px;
+    }
+    
+    .what-we-offer .ads-offer {
+        background-image: url(./images/ads.png);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .offer-list-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #e2e2e2;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    
+    .offer-list {
+        padding: 10px;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .border {
+        border-left: 1px solid #3b3b3b;
+    }
+
+    .testimonial {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .testimony-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    .testimony-box {
+        width: auto;
+        padding: 20px;
+        margin: 20px 10px;
+        background-color: #fff;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 5px;
+    }
+    
+    .testimony-box .client-name {
+        color: #102C4D;
+        font-weight: bold;
+    }
+    
+
 }
