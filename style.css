@@ -284,7 +284,6 @@ main .free-consult {
 
 }
 .package-benefits .benefits-list {
-    display: flex;
     padding-left: 5px;
     font-size: 0.8rem;
     margin-top: 20px;
