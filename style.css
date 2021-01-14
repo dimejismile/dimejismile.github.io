@@ -322,7 +322,10 @@ main .free-consult {
 }
 
 .trainer-box .trainer-picture img {
+    width: 450px;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .trainer-box .trainer-info {
