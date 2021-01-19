@@ -140,6 +140,9 @@ nav {
     padding: 20px;
 }
 
+main {
+    margin-top: 70px;
+}
 main .free-consult {
     text-align: center;
     padding: 10px;
